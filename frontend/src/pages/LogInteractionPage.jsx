@@ -1,4 +1,4 @@
-import LogInteractionForm from "../components/LogInteractionForm";
+import LogInteractionForm from "../components/logIteractionForm";
 import ChatInteraction from "../components/ChatInteraction";
 import InteractionSummary from "../components/InteractionSummary";
 

@@ -1,7 +1,10 @@
 from databases import Database
 from sqlalchemy import create_engine, MetaData
 
-DATABASE_URL = "postgresql://user:password@localhost:5432/ai_crm"
+DATABASE_URL = "mysql+aiomysql://user:password@localhost:3306/ai_crm"
+pip install aiomysql
+pip install pymysql
+
 
 database = Database(DATABASE_URL)
 metadata = MetaData()
